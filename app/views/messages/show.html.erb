@@ -1,0 +1,11 @@
+<%= link_to '一覧', messages_path %>
+<%= link_to '編集', edit_message_path(id: @message.id) %>
+
+<div class="field">
+  <%= label_tag :title %>
+  <%= @message.title %>
+</div>
+<div class="field">
+  <%= label_tag :content %>
+  <%= @message.content %>
+</div>

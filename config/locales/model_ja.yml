@@ -1,0 +1,11 @@
+ja:
+  activerecord:
+    models:
+      message: メッセージ
+
+ja:
+  activerecord:
+    attributes:
+      message:
+        title: タイトル
+        content: 内容
